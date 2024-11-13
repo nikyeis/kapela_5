@@ -1,41 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-lg bg-yellow">
-        <div class="container">
-          <a class="navbar-brand" href="#">Rick Astley</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            
-            <span class="navbar-text">
-              <ul class="navbar-nav  mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Biografie</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Discografie</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Konzerty</a>
-              </li>
-            </ul>
-            </span>
-          </div>
-        </div>
-      </nav>
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black" data-bs-theme="dark">
+
+  <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="img/rick-astley-logo.png" class="" alt="" height="70">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+
+        <span class="navbar-text ">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Biografie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discografie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Konzerty</a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="bg-pink p-1"></div>
+  <div class="bg-secondary-blue p-2"></div>
+  
+  <div class="container mb-4">
+    <img src="img/hlavni.png" class="img-fluid" alt="...">
+  </div>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <section class="container mb-4">
+    <h1>Život Ricka Astleayho</h1>
+    <div>
+      <h3>Obecné info</h3>
+    <div class="">
+      <div>
+        <img src="img/rick-astley-logo.png" alt="">
+      </div>
+      <p>Rick Astley se narodil 6. února 1966 v Newton-le-Willows , Lancashire , jako čtvrté dítě Horace a Cynthie Astleyových.</p>
+    </div>
+
+    <div>
+      <h3>Dětství</h3>
+    <div>
+      <p></p>
+      <div>
+        <img src="img/rick-astley-logo.png" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div>
+      <h3>Současnost</h3>
+    <div class="row">
+      <div>
+        <img src="img/rick-astley-logo.png" alt="">
+      </div>
+      <p></p>
+    </div>
+    </div>
+  </section>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

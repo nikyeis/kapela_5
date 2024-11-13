@@ -1,3 +1,23 @@
-.bg-yellow {
-    background-color: #8f721c;
+.bg-black
+ {
+    background-color: #000;
+}
+
+.bg-secondary-blue {
+    background-color: rgb(165, 227, 255);
+}
+
+.bg-pink {
+    background-color: rgb(255, 178, 191);
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand img {
+        height: 80px;
+    }
+    
 }
