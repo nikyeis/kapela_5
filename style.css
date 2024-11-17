@@ -1,10 +1,31 @@
-.bg-black
- {
+.card {
+    background-color: #000;
+    border: none;
+    border-color: #000;
+}
+
+.btn-secondary {
+    background-color: #000;
+    color: rgb(178, 231, 255);
+    border-color: rgb(178, 231, 255);
+}
+
+.btn-secondary:hover {
+    color: rgb(136, 19, 50);
+    border-color: rgb(136, 19, 50);
     background-color: #000;
 }
 
+.bg-black {
+    background-color: #000;
+}
+
+.bg-secondary-red {
+    background-color: rgb(136, 19, 50);
+}
+
 .bg-secondary-blue {
-    background-color: rgb(165, 227, 255);
+    background-color: rgb(178, 231, 255);
 }
 
 .bg-pink {
@@ -19,5 +40,5 @@
     .navbar-brand img {
         height: 80px;
     }
-    
+
 }
