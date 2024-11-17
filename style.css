@@ -11,8 +11,8 @@
 }
 
 .btn-secondary:hover {
-    color: rgb(136, 19, 50);
-    border-color: rgb(136, 19, 50);
+    color: rgb(247, 151, 167);
+    border-color: rgb(247, 151, 167);
     background-color: #000;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .bg-pink {
-    background-color: rgb(255, 178, 191);
+    background-color: rgb(255, 137, 157);
 }
 
 .navbar-brand img {
